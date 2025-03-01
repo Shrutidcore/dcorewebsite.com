@@ -1015,7 +1015,8 @@ input.sub-news, input.sub-news:hover {
 .elementor-1027 .elementor-element.elementor-element-32d0c8ba > .elementor-background-overlay {
     background-color: #FEF9F8;
     opacity: 0.5;
-    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    transition: 
+    background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
 .elementor-1027 .elementor-element.elementor-element-32d0c8ba {
