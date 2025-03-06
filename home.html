@@ -1238,12 +1238,12 @@
         href='https://dcorehost.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3'
         type='text/css' media='all' />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <script type="text/javascript" src="https://dcorehost.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+    <script type="text/javascript" src="\js\jquery-migrate.min.js"  
         id="jquery-core-js"></script>
-    <script type="text/javascript" src="https://dcorehost.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+    <script type="text/javascript" src="\js\jquery-migrate.min.js"
         id="jquery-migrate-js"></script>
     <script type="text/javascript"
-        src="https://dcorehost.com/wp-content/plugins/photo-gallery/booster/assets/js/circle-progress.js?ver=1.2.2"
+        src="\js\circle-progress.js"
         id="twbbwg-circle-js"></script>
     <script type="text/javascript" id="twbbwg-global-js-extra">
         /* <![CDATA[ */
@@ -1252,22 +1252,22 @@
         /* ]]> */
     </script>
     <script type="text/javascript"
-        src="https://dcorehost.com/wp-content/plugins/photo-gallery/booster/assets/js/global.js?ver=1.0.0"
+        src="\js\global.js"
         id="twbbwg-global-js"></script>
     <script type="text/javascript"
-        src="https://dcorehost.com/wp-content/plugins/photo-gallery/js/jquery.lazy.min.js?ver=1.8.31"
+        src="\js\jquery.lazy.min.js"
         id="bwg_lazyload-js"></script>
     <script type="text/javascript"
-        src="https://dcorehost.com/wp-content/plugins/photo-gallery/js/jquery.sumoselect.min.js?ver=3.4.6"
+        src="\js\tocca.min.js"
         id="sumoselect-js"></script>
     <script type="text/javascript"
-        src="https://dcorehost.com/wp-content/plugins/photo-gallery/js/tocca.min.js?ver=2.0.9"
+        src="\js\tocca.min.js"
         id="bwg_mobile-js"></script>
     <script type="text/javascript"
-        src="https://dcorehost.com/wp-content/plugins/photo-gallery/js/jquery.mCustomScrollbar.concat.min.js?ver=3.1.5"
+        src="\js\jquery.mCustomScrollbar.concat.min.js"
         id="mCustomScrollbar-js"></script>
     <script type="text/javascript"
-        src="https://dcorehost.com/wp-content/plugins/photo-gallery/js/jquery.fullscreen.min.js?ver=0.6.0"
+        src="\js\jquery.fullscreen.min.js"
         id="jquery-fullscreen-js"></script>
     <script type="text/javascript" id="bwg_frontend-js-extra">
         /* <![CDATA[ */
@@ -1275,21 +1275,27 @@
         /* ]]> */
     </script>
     <script type="text/javascript"
-        src="https://dcorehost.com/wp-content/plugins/photo-gallery/js/scripts.min.js?ver=1.8.31"
+        src="\js\scripts.min.js"
         id="bwg_frontend-js"></script>
-    <link rel="https://api.w.org/" href="https://dcorehost.com/wp-json/" />
-    <link rel="alternate" title="JSON" type="application/json" href="https://dcorehost.com/wp-json/wp/v2/pages/13" />
+        <!-- link href changed -->
+    <link rel="https://api.w.org/" href="\js\wp-json.js" />
+    <!-- https://dcorehost.com/wp-json/wp/v2/pages/13 changed -->
+    <link rel="alternate" title="JSON" type="application/json" href="\js\wp-jsonwpv2.js" />
+    <!-- https://dcorehost.com/xmlrpc.php?rsd         (NOT FOUND)-->
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://dcorehost.com/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.7.2" />
-    <link rel='shortlink' href='https://dcorehost.com/' />
+    <link rel='shortlink' href='home.html' />
+    <!-- https://dcorehost.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdcorehost.com%2F -->
     <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-        href="https://dcorehost.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdcorehost.com%2F" />
+        href="\js\wp-jsonoembed.js" />
+        <!-- https://dcorehost.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdcorehost.com%2F&#038;format=xml -->
     <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-        href="https://dcorehost.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdcorehost.com%2F&#038;format=xml" />
+        href="\js\wp-jsonoembed01.js" />
     <meta name="generator"
         content="Elementor 3.13.0-dev4; settings: css_print_method-external, google_font-enabled, font_display-auto">
     <script>
         /*<![CDATA[*/
+        // NOT FOUND  PHP
         var wdes_ajax_url = "https://dcorehost.com/wp-admin/admin-ajax.php";
         /*]]>*/
     </script>
@@ -1407,7 +1413,7 @@
                                             class="fas fa-times"></i></a>
                                     <div id="wdes-fullscreen-search-wrapper">
                                         <form method="get" id="wdes-fullscreen-searchform"
-                                            action="https://dcorehost.com/">
+                                            action="home.html">
                                             <input type="text" name="s" placeholder="Search..."
                                                 id="wdes-fullscreen-search-input">
                                             <button type="submit">
