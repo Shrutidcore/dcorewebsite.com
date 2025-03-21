@@ -1,0 +1,7 @@
+{
+    "require": {
+        "mongodb/mongodb": "^1.20",
+        "tecnickcom/tcpdf": "^6.8",
+        "setasign/fpdf": "^1.8"
+    }
+}

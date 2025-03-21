@@ -1,0 +1,5 @@
+MongoDB Connection Failed: Failed to parse URI options: Failed to look up SRV record "_mongodb._tcp.cluster0.szg5u.  mongodb.net": DNS name contains an invalid character.
+
+MongoDB Connected
+MongoDB Connected
+MongoDB Connected
